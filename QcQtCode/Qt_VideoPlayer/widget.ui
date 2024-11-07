@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>762</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>0zxm的播放器</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/images/5.ico</normaloff>:/images/5.ico</iconset>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>380</y>
+        <width>718</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="open_pushButton">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>26</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>打开文件</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res.qrc">
+         <normaloff>:/images/001.GIF</normaloff>:/images/001.GIF</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_play">
+       <property name="geometry">
+        <rect>
+         <x>112</x>
+         <y>26</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>播放</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res.qrc">
+         <normaloff>:/images/620.bmp</normaloff>:/images/620.bmp</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_pause">
+       <property name="geometry">
+        <rect>
+         <x>212</x>
+         <y>26</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>暂停</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res.qrc">
+         <normaloff>:/images/622.bmp</normaloff>:/images/622.bmp</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_slient">
+       <property name="geometry">
+        <rect>
+         <x>312</x>
+         <y>26</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>静音</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res.qrc">
+         <normaloff>:/images/volumn.bmp</normaloff>:/images/volumn.bmp</iconset>
+       </property>
+      </widget>
+      <widget class="QSlider" name="horizontalSlider">
+       <property name="geometry">
+        <rect>
+         <x>412</x>
+         <y>29</y>
+         <width>221</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>480</y>
+        <width>718</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="filename_label">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>12</y>
+         <width>64</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>文件名称:</string>
+       </property>
+      </widget>
+      <widget class="QSlider" name="horizontalSlider_2">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>481</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="process_label">
+       <property name="geometry">
+        <rect>
+         <x>579</x>
+         <y>12</y>
+         <width>60</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>播放进度</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGraphicsView" name="graphicsView">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>11</y>
+        <width>721</width>
+        <height>361</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

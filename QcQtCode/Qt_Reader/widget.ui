@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_input">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>92</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* 鼠标悬停时 */  
+QPushButton:hover {  
+    background-color: rgb(255, 217, 129); /* 背景色 */  
+    color: #000000; /* 文本颜色 */  
+}  
+  
+/* 按钮被按下时 */  
+QPushButton:pressed {  
+    background-color: #d0d0d0; /* 背景色 */  
+    border: 1px solid #aaaaaa; /* 边框 */  
+    color: #ffffff; /* 文本颜色 */  
+}  
+</string>
+   </property>
+   <property name="text">
+    <string>导入图书</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_exit">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>30</y>
+     <width>92</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* 鼠标悬停时 */  
+QPushButton:hover {  
+    background-color: rgb(255, 217, 129); /* 背景色 */  
+    color: #000000; /* 文本颜色 */  
+}  
+  
+/* 按钮被按下时 */  
+QPushButton:pressed {  
+    background-color: #d0d0d0; /* 背景色 */  
+    border: 1px solid #aaaaaa; /* 边框 */  
+    color: #ffffff; /* 文本颜色 */  
+}  
+</string>
+   </property>
+   <property name="text">
+    <string>退出程序</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

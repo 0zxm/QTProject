@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icon.png</file>
+        <file>bookcover.png</file>
+        <file>20190724160601_crbhl.jpg</file>
+    </qresource>
+    <qresource prefix="/bookslib"/>
+</RCC>

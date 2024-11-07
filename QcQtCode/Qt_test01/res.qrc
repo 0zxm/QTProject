@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="loveheart">th.jfif</file>
+    </qresource>
+</RCC>

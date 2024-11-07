@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>music_player/advance-2935453_640.webp</file>
+        <file>music_player/equalizer-2935455_640.png</file>
+        <file>music_player/microphone-2935456_640.png</file>
+        <file>music_player/music-2935457_640.png</file>
+        <file>music_player/next-2935458_640.png</file>
+        <file>music_player/pause-2935459_640.png</file>
+        <file>music_player/play-1873546_640.png</file>
+        <file>music_player/play-2935460_640.png</file>
+        <file>music_player/shutdown-2935465_640.png</file>
+        <file>music_player/sound-2935466_640.png</file>
+        <file>music_player/sound-2935467_640.png</file>
+        <file>music_player/sound-2935468_640.png</file>
+        <file>music_player/sound-2935471_640.png</file>
+        <file>music_player/stop-2935470_640.png</file>
+        <file>music_player/advance-2935453_640.png</file>
+        <file>music_player/advance-2935453_640_1.png</file>
+        <file>music_player/OIP-C.png</file>
+        <file>music_player/smallwidget.png</file>
+    </qresource>
+</RCC>
