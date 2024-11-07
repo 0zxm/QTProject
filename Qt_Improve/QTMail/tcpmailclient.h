@@ -23,7 +23,7 @@ public:
 
     QString recieve();
 
-    bool ReadyRead();
+    bool CanReadLine();
 
 private:
     QSslSocket* ssl;
